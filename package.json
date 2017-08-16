@@ -1,9 +1,8 @@
 {
-  "name": "material-ui-build-next",
-  "private": true,
-  "author": "Material-UI Team",
-  "version": "1.0.0-beta.18",
-  "description": "Material Design UI components built with React",
+  "name": "@paymytable/pmt-material-ui",
+  "author": "Dev web",
+  "version": "1.0.1",
+  "description": "Forked Material Design UI components built with React",
   "main": "./src/index.js",
   "keywords": [
     "react",
@@ -13,13 +12,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/callemall/material-ui.git"
+    "url": "git+https://github.com/PayMyTable/pmt-material-ui.git"
   },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/callemall/material-ui/issues"
-  },
-  "homepage": "http://material-ui.com/",
+  "homepage": "https://github.com/PayMyTable/pmt-material-ui",
   "scripts": {
     "docs:deploy": "yarn docs:build && yarn docs:export && firebase deploy",
     "docs:api": "rimraf pages/api/* && babel-node ./docs/scripts/buildApi.js",
