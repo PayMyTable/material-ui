@@ -3,6 +3,10 @@
   "author": "Dev web",
   "version": "1.0.2",
   "description": "Forked Material Design UI components built with React",
+  "name": "@paymytable/pmt-material-ui",
+  "author": "Dev web",
+  "version": "1.0.1",
+  "description": "Forked Material Design UI components built with React",
   "main": "./src/index.js",
   "keywords": [
     "react",
