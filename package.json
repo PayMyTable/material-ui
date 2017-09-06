@@ -1,7 +1,7 @@
 {
   "name": "@paymytable/pmt-material-ui",
   "author": "Dev web",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Forked Material Design UI components built with React",
   "private": true,
   "main": "./src/index.js",
