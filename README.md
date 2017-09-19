@@ -1,3 +1,27 @@
+# PayMyTable
+
+
+## Update with upstream
+
+see https://help.github.com/articles/syncing-a-fork/
+
+- add material-ui as remote
+    `git remote add upstream https://github.com/callemall/material-ui.git`
+- `git checkout v1-beta`
+- `git merge upstream/v1-beta`
+
+## Update on npm
+
+`npm install`
+`npm run build`
+`cd build`
+`vim package.json`
+    `"name": "@paymytable/pmt-material-ui",`
+    increase version
+`npm publish`
+
+# Material-ui readme
+
 #### Note
 
 For *how-to* questions and other non-issues,
