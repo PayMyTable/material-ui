@@ -2,6 +2,32 @@
   <a href="https://material-ui-next.com/" rel="noopener" target="_blank"><img width="200" src="/static/brand.png" alt="Material-UI logo"></a></p>
 </p>
 
+# PayMyTable
+
+
+## Update with upstream
+
+see https://help.github.com/articles/syncing-a-fork/
+
+- add material-ui as remote
+    `git remote add upstream https://github.com/callemall/material-ui.git`
+- `git checkout v1-beta`
+- `git merge upstream/v1-beta`
+
+## Update on npm
+
+`npm install`
+`npm run build`
+`cd build`
+`vim package.json`
+    `"name": "@paymytable/pmt-material-ui",`
+    increase version
+`npm publish`
+
+# Material-ui readme
+
+#### Note
+
 <h1 align="center">Material-UI</h1>
 
 <div align="center">
