@@ -1,3 +1,34 @@
+# PayMyTable
+
+
+## Update with upstream
+
+- add material-ui as remote `git remote add upstream https://github.com/callemall/material-ui.git`
+- `git fetch upstream`
+- `git checkout master`
+- `git reset --hard upstream/master`
+- update README.md with Paymytable section
+- cd `packages/material-ui`
+- update package.json with our infos
+- `git commit -am "update infos"`
+- `git push origin master --force`
+
+## Update on npm
+
+`cd packages/material-ui`
+`npm install`
+`npm run build`
+`cd build`
+`vim package.json`
+  `"name": "@paymytable/pmt-material-ui",`
+  increase version
+`npm publish`
+
+
+
+# Material-ui readme
+
+
 <p align="center">
   <a href="https://material-ui.com/" rel="noopener" target="_blank"><img width="150" src="https://material-ui.com/static/images/material-ui-logo.svg" alt="Material-UI logo"></a></p>
 </p>

@@ -1,8 +1,8 @@
 {
-  "name": "@material-ui/core",
+  "name": "@paymytable/pmt-material-ui",
   "version": "4.1.1",
-  "private": false,
-  "author": "Material-UI Team",
+  "private": true,
+  "author": "Dev Web",
   "description": "React components that implement Google's Material Design.",
   "keywords": [
     "react",
